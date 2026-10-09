@@ -5,7 +5,11 @@ Teaches a coding agent to render Mermaid diagrams with [Line9](https://line9.ai)
 Line9 renders the Mermaid you already write with its own layout engine — same
 `.mmd` source, cleaner placement, orthogonal edge routing and typography.
 
-<!-- TODO: before/after image (stock Mermaid vs Line9) -->
+The same five-line `.mmd` source, rendered by stock Mermaid (left) and Line9 (right):
+
+| Mermaid | Line9 |
+|---|---|
+| ![Thermostat flowchart rendered by Mermaid](assets/thermostat-mermaid.svg) | ![Thermostat flowchart rendered by Line9](assets/thermostat-line9.svg) |
 
 ## Install
 

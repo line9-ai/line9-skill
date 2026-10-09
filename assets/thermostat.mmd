@@ -1,0 +1,9 @@
+---
+title: Simple Thermostat
+---
+graph TB
+  read[Measure temperature] --> cold{Below target?}
+  cold -- yes --> on[Heater on]
+  cold -- no --> off[Heater off]
+  on --> read
+  off --> read
