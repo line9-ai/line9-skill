@@ -7,13 +7,7 @@ Line9 renders the Mermaid you already write with its own layout engine — same
 
 The same five-line `.mmd` source, rendered by stock Mermaid (left) and Line9 (right):
 
-<table>
-<tr><th>Mermaid</th><th>Line9</th></tr>
-<tr>
-<td align="center" valign="middle"><img src="assets/thermostat-mermaid.svg" alt="Thermostat flowchart rendered by Mermaid" height="400"></td>
-<td align="center" valign="middle"><img src="assets/thermostat-line9.svg" alt="Thermostat flowchart rendered by Line9" height="400"></td>
-</tr>
-</table>
+![The same flowchart rendered by Mermaid (left) and Line9 (right)](assets/before-after.png)
 
 ## Install
 
