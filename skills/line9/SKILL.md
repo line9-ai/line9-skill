@@ -12,4 +12,6 @@ Use this skill whenever you need to render, draw, or show a Mermaid diagram.
 3. Run `line9 bootstrap` once. It installs the full authoring guidance for your
    agent host, matched to the installed CLI version. Follow that guidance for
    everything about writing diagrams; this file deliberately contains none.
+   If it reports no supported agent host, run `line9 bootstrap --print` and
+   follow that output instead.
 4. Render: `line9 render <file>.mmd`
