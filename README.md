@@ -7,9 +7,13 @@ Line9 renders the Mermaid you already write with its own layout engine — same
 
 The same five-line `.mmd` source, rendered by stock Mermaid (left) and Line9 (right):
 
-| Mermaid | Line9 |
-|---|---|
-| ![Thermostat flowchart rendered by Mermaid](assets/thermostat-mermaid.svg) | ![Thermostat flowchart rendered by Line9](assets/thermostat-line9.svg) |
+<table>
+<tr><th>Mermaid</th><th>Line9</th></tr>
+<tr>
+<td align="center" valign="middle"><img src="assets/thermostat-mermaid.svg" alt="Thermostat flowchart rendered by Mermaid" height="400"></td>
+<td align="center" valign="middle"><img src="assets/thermostat-line9.svg" alt="Thermostat flowchart rendered by Line9" height="400"></td>
+</tr>
+</table>
 
 ## Install
 
@@ -25,16 +29,10 @@ The skill tells your agent to check for the `line9` CLI, fall back to
 `npx line9@latest` if it is missing, run `line9 bootstrap` for the full
 authoring guidance, and render with `line9 render <file>.mmd`.
 
-**No copy to drift.** The authoring guidance is not duplicated here. `SKILL.md`
-is a short pointer, and `line9 bootstrap` installs the guidance that matches the
-CLI version you have.
-
-## Straight dealing
+`SKILL.md` is a short pointer rather than a copy of the authoring guidance; `line9 bootstrap` installs the guidance that matches your CLI version.
 
 - **This repository contains no engine source.** It is a few text files. The
   skill makes your agent run a downloaded binary (the `line9` CLI, via npm).
-- Line9 is built on [Mermaid.js](https://mermaid.js.org), which the Mermaid
-  project created. Line9 is not affiliated with Mermaid.
 - Line9 is not open source, but it is free to use. The free CLI is for personal
   use and adds a watermark to its output. Your Mermaid source is always yours.
 - The licence in this repository covers the wrapper text only.
