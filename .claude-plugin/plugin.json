@@ -5,5 +5,13 @@
   "homepage": "https://line9.ai",
   "repository": "https://github.com/line9-ai/line9-skill",
   "license": "MIT",
-  "skills": "./skills"
+  "skills": "./skills",
+  "displayName": "Line9",
+  "author": {
+    "name": "Line9",
+    "url": "https://line9.ai"
+  },
+  "icon": "./icon.png",
+  "documentationUrl": "https://line9.ai/docs",
+  "privacyPolicyUrl": "https://line9.ai/legal/privacy"
 }

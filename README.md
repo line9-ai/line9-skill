@@ -25,6 +25,7 @@ authoring guidance, and render with `line9 render <file>.mmd`.
 
 `SKILL.md` is a short pointer rather than a copy of the authoring guidance; `line9 bootstrap` installs the guidance that matches your CLI version.
 
+- **Data.** The skill sends nothing. The free CLI renders entirely on your machine and has no telemetry.
 - **This repository contains no engine source.** It is a few text files. The
   skill makes your agent run a downloaded binary (the `line9` CLI, via npm).
 - Line9 is not open source, but it is free to use. The free CLI is for personal
