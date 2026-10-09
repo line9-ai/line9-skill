@@ -1,0 +1,9 @@
+{
+  "name": "line9",
+  "description": "Line9 renders the Mermaid you already write with its own layout engine — same .mmd source, cleaner placement, orthogonal edge routing and typography.",
+  "version": "1.0.0",
+  "homepage": "https://line9.ai",
+  "repository": "https://github.com/line9-ai/line9-skill",
+  "license": "MIT",
+  "skills": "./skills"
+}
